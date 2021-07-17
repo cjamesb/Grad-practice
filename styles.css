@@ -1,0 +1,41 @@
+html {background-color: beige;}
+
+.hole {
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+  
+        text-transform: uppercase;
+}
+
+#viewBox{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; */
+}
+
+.chat-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+    /* justify-self: center;
+    align-content: center;
+     */
+
+}
+/* .msg{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.date{
+    display: flex;
+    justify-content: center;
+} */

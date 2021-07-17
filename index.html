@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <htm lang="en">
   <head>
+    <link rel='stylesheet' href="styles.css"/>
     <meta charset="UTF-8" />
     <title>CRUD APP</title>
   </head>
   <body>
+    <div class="hole">
       in the hole?
+    </div>
     <div id="formBox">
       <form id='inputBox'>
         <p>Name</p>
         <input type='text' value='' placeholder="is how its done" name='name'>
         <input type='text' value='' placeholder="This" name='other' id='otherText'>
-        <button id='btnSubmit' type='submit'> SAY IT</button>
+        
+        <button name='submitButton'id='btnSubmit' type='submit' style="display:none"> SAY IT</button>
+        <label for='btnSubmit'> Hit Enter </label>
       </form>
     </div>
     <div id="viewBox">
